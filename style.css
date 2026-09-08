@@ -4,6 +4,17 @@ html, body {
 }
 
 /* start of add button style */
+#upload-button {
+	--left-margin: 12px;
+	--bottom-margin: 12px;
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	transform: translate(
+		calc(var(--diameter) * -1 - var(--left-margin)),
+		calc(var(--diameter) * -1 - var(--bottom-margin)));
+}
+
 .button-background {
 	--diameter: 70px;
 	--border-width: 4px;
