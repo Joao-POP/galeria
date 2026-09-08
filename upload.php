@@ -1,9 +1,9 @@
 <?php
 
 $upload_dir = './photos/';
-$upload_file = $upload_dir . basename($_FILES['upload']['name']);
+$uploaded_image = $upload_dir . basename($_FILES['image-upload']['name']);
 
-if(!move_uploaded_file($_FILES['upload']['tmp_name'], $upload_file))
+if(!move_uploaded_file($_FILES['image-upload']['tmp_name'], $uploaded_image))
 {
 	error_log('PHP\'s HTTP POST upload mechanism was not used to upload this file.');
 }
