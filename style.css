@@ -3,6 +3,10 @@ html, body {
 	height: 100%;
 }
 
+body {
+	position: relative;
+}
+
 /* start of add button style */
 #upload-button {
 	--left-margin: 12px;
@@ -49,3 +53,12 @@ html, body {
 	transform: rotate(90deg);
 }
 /* end of add button style */
+
+/* start of upload window style */
+#upload-window {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* end of upload window style */
