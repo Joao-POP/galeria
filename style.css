@@ -69,6 +69,7 @@ button:hover {
 	transform: translate(-50%, -50%);
 	background-color: rgb(131 127 229);
 	border: 1px solid black;
+	width: max(50vw, 500px);
 }
 
 #upload-window label {
