@@ -12,7 +12,7 @@ button:hover {
 	cursor: pointer;
 }
 
-/* start of add button style */
+/* add button */
 #upload-button {
 	--left-margin: 12px;
 	--bottom-margin: 12px;
@@ -57,13 +57,39 @@ button:hover {
 	left: calc((var(--true-diameter) - var(--width))/2);
 	transform: rotate(90deg);
 }
-/* end of add button style */
+/* end of add button */
 
-/* start of upload window style */
+/* upload window */
 #upload-window {
+	--margin-toolbar: 3px;
+
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	background-color: rgb(131 127 229);
+	border: 1px solid black;
 }
-/* end of upload window style */
+
+#upload-window label {
+	font-size: 1.4rem;
+	flex: 1;
+	margin-left: var(--margin-toolbar);
+}
+
+.toolbar {
+	display: flex;
+}
+
+.close-button {
+	background-color: red;
+	border: 1px solid black;
+	width: 40px;
+	height: 24px;
+	align-self: center;
+	margin-right: var(--margin-toolbar);
+}
+/* end of upload window */
+
+/* image preview */
+/* end of image preview */
