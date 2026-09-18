@@ -1,15 +1,15 @@
 console.log("Olá, Mundo!");
 
-const uploadInput = document.getElementById("upload");
+const imageUpload = document.getElementById("image-upload");
 const uploadButton = document.getElementById("upload-button");
 const uploadContainer = document.getElementById("container");
 
-uploadInput.addEventListener("change", updateDialog);
+imageUpload.addEventListener("change", updateUploadWindow);
 
-function updateDialog() {
-	const thumbnail = document.querySelector("#container img");
+function updateUploadWindow() {
+	const thumbnail = document.getElementById("image-preview");
 	
-	if (thumbnail !== null) {
+	if (thumbnail.classList.get("placeholder") !== null) {
 		uploadContainer.removeChild(thumbnail);
 	}
 
