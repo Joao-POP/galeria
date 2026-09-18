@@ -12,11 +12,13 @@
 			<div class="horizontal-arm"></div>
 		</button>
 		<div id="upload-window">
-			<label>Enviar arquivos</label>
-			<button class="close-button"><div class="cross"></div></button>
+			<div class="toolbar">
+				<label>Enviar arquivos</label>
+				<button class="close-button">X</button>
+			</div>
 			<form method="post" action="" enctype="multipart/form-data">
 				<input type="file" accept="image/*" name="image-upload" />
-				<button>Enviar</button>
+				<button type="submit">Enviar</button>
 				<button>Escolher outra foto</button>
 				<button>Cancelar</button>
 			</form>
