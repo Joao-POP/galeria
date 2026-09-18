@@ -62,6 +62,7 @@ button:hover {
 /* upload window */
 #upload-window {
 	--margin-toolbar: 3px;
+	--window-width: max(50vw, 500px);
 
 	position: absolute;
 	top: 50%;
@@ -69,7 +70,7 @@ button:hover {
 	transform: translate(-50%, -50%);
 	background-color: rgb(131 127 229);
 	border: 1px solid black;
-	width: max(50vw, 500px);
+	width: var(--window-width);
 }
 
 #upload-window label {
@@ -94,7 +95,9 @@ button:hover {
 
 /* image preview */
 #image-preview {
-	width: max(50vw, 500px);
+	width: var(--window-width);
+	position-anchor: --toolbar;
+	position-area: end;
 }
 .placeholder {
 	background-color: white;
