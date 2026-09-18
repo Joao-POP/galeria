@@ -17,7 +17,8 @@
 				<button class="close-button">X</button>
 			</div>
 			<form method="post" action="" enctype="multipart/form-data">
-				<input type="file" accept="image/*" name="image-upload" id="image-preview" />
+				<img id="image-preview" class="placeholder" height="500px" />
+				<input type="file" accept="image/*" name="image-upload" />
 				<button type="submit" class="upload-control">Enviar</button>
 				<button class="upload-control">Escolher outra foto</button>
 				<button class="upload-control">Cancelar</button>
