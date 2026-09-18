@@ -94,12 +94,19 @@ button:hover {
 
 /* image preview */
 #image-preview {
-	display: none;
+	width: max(50vw, 500px);
+}
+.placeholder {
+	background-color: white;
 }
 /* end of image preview */
 
 /* upload controls */
 .upload-control {
+	display: none;
+}
+
+form input {
 	display: none;
 }
 /* end of upload controls */
