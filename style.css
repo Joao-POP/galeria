@@ -81,6 +81,7 @@ button:hover {
 
 .toolbar {
 	display: flex;
+	anchor-name: --toolbar;
 }
 
 .close-button {
@@ -110,6 +111,11 @@ button:hover {
 }
 
 form input {
-	display: none;
+	opacity: 0;
+	position: absolute;
+	position-anchor: --toolbar;
+	position-area: end;
+	width: var(--window-width);
+	height: 500px;
 }
 /* end of upload controls */
