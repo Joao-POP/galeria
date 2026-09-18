@@ -8,6 +8,10 @@ body {
 	font-family: sans-serif;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 /* start of add button style */
 #upload-button {
 	--left-margin: 12px;
