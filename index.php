@@ -17,10 +17,10 @@
 				<button class="close-button">X</button>
 			</div>
 			<form method="post" action="" enctype="multipart/form-data">
-				<input type="file" accept="image/*" name="image-upload" />
-				<button type="submit">Enviar</button>
-				<button>Escolher outra foto</button>
-				<button>Cancelar</button>
+				<input type="file" accept="image/*" name="image-upload" id="image-preview" />
+				<button type="submit" class="upload-control">Enviar</button>
+				<button class="upload-control">Escolher outra foto</button>
+				<button class="upload-control">Cancelar</button>
 			</form>
 		</div>
 	</body>
