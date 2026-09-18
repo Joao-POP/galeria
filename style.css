@@ -93,4 +93,13 @@ button:hover {
 /* end of upload window */
 
 /* image preview */
+#image-preview {
+	display: none;
+}
 /* end of image preview */
+
+/* upload controls */
+.upload-control {
+	display: none;
+}
+/* end of upload controls */
