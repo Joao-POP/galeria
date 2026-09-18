@@ -18,10 +18,10 @@
 			</div>
 			<form method="post" action="" enctype="multipart/form-data">
 				<img id="image-preview" class="placeholder" height="500px" />
-				<input type="file" accept="image/*" name="image-upload" />
-				<button type="submit" class="upload-control">Enviar</button>
-				<button class="upload-control">Escolher outra foto</button>
-				<button class="upload-control">Cancelar</button>
+				<input id="image-upload" type="file" accept="image/*" name="image-upload" />
+				<button type="submit" class="upload-control" disabled>Enviar</button>
+				<button class="upload-control" disabled>Escolher outra foto</button>
+				<button class="upload-control" disabled>Cancelar</button>
 			</form>
 		</div>
 	</body>

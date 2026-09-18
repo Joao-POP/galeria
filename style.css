@@ -106,7 +106,7 @@ button:hover {
 /* end of image preview */
 
 /* upload controls */
-.upload-control {
+.upload-control:disabled {
 	display: none;
 }
 
